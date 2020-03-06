@@ -1,0 +1,13 @@
+.calculator {
+  height: 480px;
+  width: 320px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #24282f, #2b2f38);
+  box-shadow: 5px 5px 15px #22252c, -5px -5px 15px #2e333c;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 60px 60px 60px 60px 60px;
+}
+/*#61dafb*/
+/*#282c34*/
