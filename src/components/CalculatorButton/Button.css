@@ -1,10 +1,15 @@
 :root {
   --button-border: 1px solid #61dafb;
   --button-radius: 5px;
+  --button-operation-radius: 5px;
   --button-background: linear-gradient(145deg, #24282f, #2b2f38);
   --button-box-shadow: 5px 5px 7px #22252c, -5px -5px 7px #2e333c;
   --button-pressed-background: #282c34;
   --button-pressed-box-shadow: inset 5px 5px 7px #22252c, inset -5px -5px 7px #2e333c;
+  --button-operation-background: linear-gradient(145deg, #57c4e2, #68e9ff);
+  --button-operation-box-shadow: 5px 5px 7px #22252c, -5px -5px 7px #2e333c;
+  --button-operation-pressed-background: #61dafb;
+  --button-operation-pressed-box-shadow: inset 5px 5px 7px #52b9d5, inset -5px -5px 7px #70fbff;
 }
 .calculator-button {
   font-size: 1.4em;
@@ -19,10 +24,36 @@
 .calculator-button:active {
   font-size: 1.4em;
   border: none;
-  color: #61dafb91;
+  color: #61dafbb9;
   margin: 5px;
   background: var(--button-pressed-background);
   box-shadow: var(--button-pressed-box-shadow);
   border-radius: var(--button-radius);
   outline: none;
+}
+.operation {
+  font-size: 1.4em;
+  border: none;
+  color: #282c34;
+  margin: 5px;
+  background: var(--button-operation-background);
+  box-shadow: var(--button-operation-box-shadow);
+  border-radius: var(--button-operation-radius);
+  outline: none;
+}
+.operation:active {
+  font-size: 1.4em;
+  border: none;
+  color: #282c34;
+  margin: 5px;
+  background: var(--button-operation-pressed-background);
+  box-shadow: var(--button-operation-pressed-box-shadow);
+  border-radius: var(--button-operation-radius);
+  outline: none;
+}
+.double {
+  grid-column: span 2;
+}
+.triple {
+  grid-column: span 3;
 }

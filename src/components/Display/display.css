@@ -1,0 +1,13 @@
+.calculator-display {
+  grid-column: span 4;
+  margin: 10px 5px;
+  color: #1f4c35;
+  background-color: #4ebf85;
+  box-shadow: inset 5px 5px 10px #1f4c35, inset -5px -5px 10px #7dffd5;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  font-size: 2em;
+}
