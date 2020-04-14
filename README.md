@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Available Scripts
+
+Simple Neomorphic calculator made with Create React App
+
+## Available Demo In
+
+View Demo:
+
+[GH Pages Demo](https://whaletalent.github.io/react-calculator/).
 
 ## Available Scripts
 
