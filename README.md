@@ -1,3 +1,7 @@
+## Available Scripts
+
+Simple Neomorphic calculator made with Create React App
+
 ## Available Demo In
 
 View Demo:
