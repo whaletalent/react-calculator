@@ -10,5 +10,16 @@
   justify-content: flex-end;
   align-items: center;
   padding: 10px;
+  font-size: 4em;
+
+  width: auto;
+  overflow: hidden;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+.calculator-display.medium {
+  font-size: 3em;
+}
+.calculator-display.mini {
   font-size: 2em;
 }

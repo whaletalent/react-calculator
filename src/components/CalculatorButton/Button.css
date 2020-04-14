@@ -11,6 +11,7 @@
   --button-operation-pressed-background: #61dafb;
   --button-operation-pressed-box-shadow: inset 5px 5px 7px #52b9d5, inset -5px -5px 7px #70fbff;
 }
+
 .calculator-button {
   font-size: 1.4em;
   border: none;
